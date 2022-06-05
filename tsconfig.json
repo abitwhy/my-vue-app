@@ -10,25 +10,18 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "esModuleInterop": true,
-    "lib": [
-      "esnext",
-      "dom"
-    ],
+    "lib": ["esnext", "dom"],
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "~/*": [
-        "src/*"
-      ]
+      "~/*": ["src/*"]
     },
-    "types": [
-      "vite/client",
-    ]
+    "types": ["vite/client"]
   },
   "include": [
     // see https://www.typescriptlang.org/tsconfig#include
     "src/**/*",
-    "src/*.vue",
+    "src/*.vue"
   ],
   "references": [
     {
