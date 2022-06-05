@@ -3,5 +3,5 @@
 </template>
 
 <script setup lang="ts">
-import AComponent from './components/AComponent.vue'
+import AComponent from '~/components/AComponent.vue'
 </script>
