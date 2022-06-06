@@ -23,10 +23,8 @@
     "eslint-define-config": "^1.5.0",
     "eslint-plugin-vue": "^9.1.0",
     "lint-staged": "^13.0.0",
-    "picocolors": "^1.0.0",
     "prettier": "2.6.2",
     "simple-git-hooks": "^2.8.0",
-    "tsx": "^3.4.2",
     "typescript": "^4.7.3",
     "unplugin-vue-components": "^0.19.6",
     "vite": "^2.9.9",
@@ -34,8 +32,7 @@
     "vue-tsc": "0.35.2"
   },
   "simple-git-hooks": {
-    "pre-commit": "pnpm exec lint-staged --concurrent false",
-    "commit-msg": "pnpm exec tsx scripts/lint-commit-msg.ts $1"
+    "pre-commit": "pnpm exec lint-staged --concurrent false"
   },
   "lint-staged": {
     "*": [
