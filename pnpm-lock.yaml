@@ -9,7 +9,6 @@ specifiers:
   eslint-define-config: ^1.5.0
   eslint-plugin-vue: ^9.1.0
   lint-staged: ^13.0.0
-  picocolors: ^1.0.0
   prettier: 2.6.2
   simple-git-hooks: ^2.8.0
   tsx: ^3.4.2
@@ -32,7 +31,6 @@ devDependencies:
   eslint-define-config: registry.npmmirror.com/eslint-define-config/1.5.0
   eslint-plugin-vue: registry.npmmirror.com/eslint-plugin-vue/9.1.0_eslint@8.17.0
   lint-staged: registry.npmmirror.com/lint-staged/13.0.0
-  picocolors: registry.npmmirror.com/picocolors/1.0.0
   prettier: registry.npmmirror.com/prettier/2.6.2
   simple-git-hooks: registry.npmmirror.com/simple-git-hooks/2.8.0
   tsx: registry.npmmirror.com/tsx/3.4.2
@@ -448,7 +446,6 @@ packages:
     dependencies:
       '@vue/reactivity': registry.npmmirror.com/@vue/reactivity/3.2.36
       '@vue/shared': registry.npmmirror.com/@vue/shared/3.2.36
-    dev: false
 
   registry.npmmirror.com/@vue/runtime-dom/3.2.36:
     resolution: {integrity: sha512-gYPYblm7QXHVuBohqNRRT7Wez0f2Mx2D40rb4fleehrJU9CnkjG0phhcGEZFfGwCmHZRqBCRgbFWE98bPULqkg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/runtime-dom/-/runtime-dom-3.2.36.tgz}
@@ -458,7 +455,6 @@ packages:
       '@vue/runtime-core': registry.npmmirror.com/@vue/runtime-core/3.2.36
       '@vue/shared': registry.npmmirror.com/@vue/shared/3.2.36
       csstype: registry.npmmirror.com/csstype/2.6.20
-    dev: false
 
   registry.npmmirror.com/@vue/server-renderer/3.2.36_vue@3.2.36:
     resolution: {integrity: sha512-uZE0+jfye6yYXWvAQYeHZv+f50sRryvy16uiqzk3jn8hEY8zTjI+rzlmZSGoE915k+W/Ol9XSw6vxOUD8dGkUg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/server-renderer/-/server-renderer-3.2.36.tgz}
@@ -471,7 +467,6 @@ packages:
       '@vue/compiler-ssr': registry.npmmirror.com/@vue/compiler-ssr/3.2.36
       '@vue/shared': registry.npmmirror.com/@vue/shared/3.2.36
       vue: registry.npmmirror.com/vue/3.2.36
-    dev: false
 
   registry.npmmirror.com/@vue/shared/3.2.36:
     resolution: {integrity: sha512-JtB41wXl7Au3+Nl3gD16Cfpj7k/6aCroZ6BbOiCMFCMvrOpkg/qQUXTso2XowaNqBbnkuGHurLAqkLBxNGc1hQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vue/shared/-/shared-3.2.36.tgz}
@@ -759,7 +754,6 @@ packages:
     resolution: {integrity: sha512-/WwNkdXfckNgw6S5R125rrW8ez139lBHWouiBvX8dfMFtcn6V81REDqnH7+CRpRipfYlyU1CmOnOxrmGcFOjeA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/csstype/-/csstype-2.6.20.tgz}
     name: csstype
     version: 2.6.20
-    dev: false
 
   registry.npmmirror.com/debug/4.3.4:
     resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/debug/-/debug-4.3.4.tgz}
@@ -2754,7 +2748,6 @@ packages:
       '@vue/runtime-dom': registry.npmmirror.com/@vue/runtime-dom/3.2.36
       '@vue/server-renderer': registry.npmmirror.com/@vue/server-renderer/3.2.36_vue@3.2.36
       '@vue/shared': registry.npmmirror.com/@vue/shared/3.2.36
-    dev: false
 
   registry.npmmirror.com/webpack-sources/3.2.3:
     resolution: {integrity: sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/webpack-sources/-/webpack-sources-3.2.3.tgz}
