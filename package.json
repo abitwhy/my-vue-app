@@ -1,8 +1,6 @@
 {
-  "name": "my-vue-app",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "packageManager": "pnpm@7.1.7",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
@@ -41,10 +39,5 @@
     "*.{ts,vue}": [
       "eslint --fix"
     ]
-  },
-  "engines": {
-    "node": ">=18.2.0",
-    "pnpm": ">=7.0.0"
-  },
-  "packageManager": "pnpm@7.1.7"
+  }
 }
