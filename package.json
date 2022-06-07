@@ -7,7 +7,8 @@
     "preview": "vite preview",
     "lint": "eslint --ext .ts,.vue src",
     "format": "prettier --write .",
-    "typecheck": "vue-tsc --noEmit"
+    "typecheck": "vue-tsc --noEmit",
+    "prepare": "simple-git-hooks"
   },
   "dependencies": {
     "vue": "^3.2.36"
