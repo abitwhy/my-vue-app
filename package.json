@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "vite",
     "test": "vitest",
+    "coverage": "vitest run --coverage",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "lint": "eslint --ext .ts,.vue src",
@@ -20,6 +21,7 @@
     "@typescript-eslint/eslint-plugin": "^5.27.0",
     "@typescript-eslint/parser": "^5.27.0",
     "@vitejs/plugin-vue": "^2.3.3",
+    "c8": "^7.11.3",
     "eslint": "^8.17.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-define-config": "^1.5.0",
