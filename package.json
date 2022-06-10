@@ -13,7 +13,6 @@
     "postinstall": "simple-git-hooks"
   },
   "dependencies": {
-    "vite-plugin-pages": "^0.23.0",
     "vue": "^3.2.36",
     "vue-router": "^4.0.16"
   },
@@ -34,6 +33,7 @@
     "typescript": "^4.7.3",
     "unplugin-vue-components": "^0.19.6",
     "vite": "^2.9.9",
+    "vite-plugin-pages": "^0.23.0",
     "vitest": "^0.14.1",
     "vue-eslint-parser": "^9.0.2",
     "vue-tsc": "0.35.2"
