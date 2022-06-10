@@ -3,6 +3,8 @@
   "packageManager": "pnpm@7.1.7",
   "scripts": {
     "dev": "vite",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "lint": "eslint --ext .ts,.vue src",
@@ -19,6 +21,7 @@
     "@typescript-eslint/eslint-plugin": "^5.27.0",
     "@typescript-eslint/parser": "^5.27.0",
     "@vitejs/plugin-vue": "^2.3.3",
+    "c8": "^7.11.3",
     "eslint": "^8.17.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-define-config": "^1.5.0",
@@ -29,6 +32,7 @@
     "typescript": "^4.7.3",
     "unplugin-vue-components": "^0.19.6",
     "vite": "^2.9.9",
+    "vitest": "^0.14.1",
     "vue-eslint-parser": "^9.0.2",
     "vue-tsc": "0.35.2"
   },

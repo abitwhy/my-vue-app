@@ -1,6 +1,7 @@
 # auto generated
 node_modules
 dist
+coverage
 
 # formatless file
 !.*
