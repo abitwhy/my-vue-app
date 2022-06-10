@@ -39,6 +39,7 @@
     "vue-tsc": "0.35.2"
   },
   "simple-git-hooks": {
+    "post-checkout": "pnpm install",
     "pre-commit": "pnpm exec simple-git-hooks && pnpm exec lint-staged --concurrent false",
     "commit-msg": "pnpm exec commitlint --edit"
   },
