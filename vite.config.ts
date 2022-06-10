@@ -20,5 +20,9 @@ export default defineConfig({
       dts: 'src/components/index.d.ts',
     }),
   ],
-  test: {},
+  test: {
+    coverage: {
+      reportsDirectory: 'temp/coverage',
+    },
+  },
 })
