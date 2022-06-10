@@ -16,7 +16,7 @@
     "paths": {
       "~/*": ["src/*"]
     },
-    "types": ["vite/client", "vitest", "vite-plugin-pages/client"]
+    "types": ["vite/client", "vitest/globals", "vite-plugin-pages/client"]
   },
   "include": [
     // see https://www.typescriptlang.org/tsconfig#include
