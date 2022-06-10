@@ -1,3 +1,3 @@
 <template>
-  <AComponent worker="Vue with TypeScript" />
+  <router-view />
 </template>
