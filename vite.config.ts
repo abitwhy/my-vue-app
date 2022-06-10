@@ -21,6 +21,7 @@ export default defineConfig({
     }),
   ],
   test: {
+    globals: true,
     coverage: {
       reportsDirectory: 'temp/coverage',
     },
