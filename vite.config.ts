@@ -25,5 +25,9 @@ export default defineConfig({
       exclude: ['**/-/**'],
     }),
   ],
-  test: {},
+  test: {
+    coverage: {
+      reportsDirectory: 'temp/coverage',
+    },
+  },
 })
