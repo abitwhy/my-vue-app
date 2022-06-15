@@ -1,0 +1,7 @@
+// Vitest Snapshot v1
+
+exports[`renders a todo 1`] = `
+"<div>
+  <div data-test=\\"todo\\">Learn Vue.js 3</div>
+</div>"
+`;
