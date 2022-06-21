@@ -1,7 +1,10 @@
 // Vitest Snapshot v1
 
 exports[`renders a todo 1`] = `
-"<div>
-  <div data-test=\\"todo\\">Learn Vue.js 3</div>
-</div>"
+"<form data-test=\\"form\\"><input data-test=\\"new-todo\\"><button type=\\"submit\\" disabled=\\"\\">提交</button>
+  <div data-test=\\"visible\\" style=\\"display: none;\\"></div>
+</form>
+<ol>
+  <li data-test=\\"todo\\">Learn Vue.js 3</li>
+</ol>"
 `;
