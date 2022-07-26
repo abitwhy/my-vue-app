@@ -17,11 +17,8 @@
     },
     "types": ["vite/client", "vite-plugin-pages/client"]
   },
-  "include": [
-    // see https://www.typescriptlang.org/tsconfig#include
-    "src/**/*",
-    "src/*.vue"
-  ],
+  // see https://www.typescriptlang.org/tsconfig#include
+  "include": ["src/**/*"],
   "references": [
     {
       "path": "./tsconfig.node.json"
