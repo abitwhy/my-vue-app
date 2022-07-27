@@ -13,7 +13,6 @@ export default defineConfig({
   },
   plugins: [vue()],
   test: {
-    globals: true,
     environment: 'jsdom',
     include: ['**/{*,?}.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
     coverage: {
