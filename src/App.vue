@@ -1,7 +1,3 @@
 <template>
-  <AComponent worker="Vue with TypeScript" />
+  <router-view />
 </template>
-
-<script setup lang="ts">
-import AComponent from './components/AComponent.vue'
-</script>
