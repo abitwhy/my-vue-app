@@ -1,5 +1,5 @@
 import { mount } from '@vue/test-utils'
-import TodoList from './index.vue'
+import TodoList from './.vue'
 
 // 静态测试可共用一个组件实例
 const wrapper = mount(TodoList)

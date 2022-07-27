@@ -1,10 +1,10 @@
 // Vitest Snapshot v1
 
 exports[`render 1`] = `
-"<form data-test=\\"form\\" data-v-013b07b7=\\"\\"><input data-test=\\"new-todo\\" data-v-013b07b7=\\"\\"><button type=\\"submit\\" disabled=\\"\\" data-v-013b07b7=\\"\\">提交</button>
-  <div data-test=\\"visible\\" data-v-013b07b7=\\"\\" style=\\"display: none;\\"></div>
+"<form data-test=\\"form\\" data-v-7e97f12b=\\"\\"><input data-test=\\"new-todo\\" data-v-7e97f12b=\\"\\"><button type=\\"submit\\" disabled=\\"\\" data-v-7e97f12b=\\"\\">提交</button>
+  <div data-test=\\"visible\\" data-v-7e97f12b=\\"\\" style=\\"display: none;\\"></div>
 </form>
-<ol data-v-013b07b7=\\"\\">
-  <li class=\\"todo\\" data-test=\\"todo\\" data-v-013b07b7=\\"\\"><label data-v-013b07b7=\\"\\"><input type=\\"checkbox\\" data-v-013b07b7=\\"\\"> Learn VueJS 3</label><button type=\\"button\\" data-v-013b07b7=\\"\\"></button></li>
+<ol data-v-7e97f12b=\\"\\">
+  <li class=\\"todo\\" data-test=\\"todo\\" data-v-7e97f12b=\\"\\"><label data-v-7e97f12b=\\"\\"><input type=\\"checkbox\\" data-v-7e97f12b=\\"\\"> Learn VueJS 3</label><button type=\\"button\\" data-v-7e97f12b=\\"\\"></button></li>
 </ol>"
 `;
