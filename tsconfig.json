@@ -19,9 +19,7 @@
   },
   "include": [
     // see https://www.typescriptlang.org/tsconfig#include
-    "src/**/*",
-    "src/*.vue",
-    "src/**/.test.ts"
+    "src/**/*.*"
   ],
   "references": [
     {
