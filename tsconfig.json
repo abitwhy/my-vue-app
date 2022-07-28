@@ -18,7 +18,7 @@
     "types": ["vite/client"]
   },
   // see https://www.typescriptlang.org/tsconfig#include
-  "include": ["src/**/*"],
+  "include": ["src/**/*.*"],
   "references": [
     {
       "path": "./tsconfig.node.json"
