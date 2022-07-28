@@ -1,7 +1,6 @@
 /// <reference types="vitest" />
 
 import { defineConfig } from 'vite'
-import path from 'path'
 import vue from '@vitejs/plugin-vue'
 import Pages from 'vite-plugin-pages'
 
@@ -9,7 +8,7 @@ import Pages from 'vite-plugin-pages'
 export default defineConfig({
   resolve: {
     alias: {
-      '~/': `${path.resolve(__dirname, 'src')}/`,
+      '~/': '/src/',
     },
   },
   plugins: [
