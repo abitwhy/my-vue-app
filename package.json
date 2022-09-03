@@ -11,22 +11,22 @@
     "postinstall": "simple-git-hooks"
   },
   "dependencies": {
-    "vue": "^3.2.36"
+    "vue": "^3.2.38"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.27.0",
-    "@typescript-eslint/parser": "^5.27.0",
-    "@vitejs/plugin-vue": "^2.3.3",
-    "eslint": "^8.17.0",
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1",
+    "@vitejs/plugin-vue": "^2.3.4",
+    "eslint": "^8.23.0",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-define-config": "^1.5.0",
-    "eslint-plugin-vue": "^9.1.0",
-    "lint-staged": "^13.0.0",
+    "eslint-define-config": "^1.7.0",
+    "eslint-plugin-vue": "^9.4.0",
+    "lint-staged": "^13.0.3",
     "prettier": "2.6.2",
     "simple-git-hooks": "^2.8.0",
-    "typescript": "^4.7.3",
-    "vite": "^2.9.9",
-    "vue-eslint-parser": "^9.0.2",
+    "typescript": "^4.8.2",
+    "vite": "^2.9.15",
+    "vue-eslint-parser": "^9.0.3",
     "vue-tsc": "0.35.2"
   },
   "simple-git-hooks": {
